@@ -29,7 +29,7 @@ To-Do:
 Hurdles/Problems:
 
 - tried fetching API like "lazy-loading"
-    problem: had to fetch complete Pokemon list for filtering
+    - problem: had to fetch complete Pokemon list for filtering
 
 - handling the API Data took too much time
     not enough experience
