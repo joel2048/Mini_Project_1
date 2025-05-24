@@ -48,7 +48,7 @@ const displayData = async () => {
     const targetValue = element.base_stat;
 
     setTimeout(() => { 
-      bar.style.width = `${targetValue*0.392156862745098}%`;
+      bar.style.width = `${targetValue*0.392156862745098}%`; // 100% Value is 255 --> 255 * 0.392156862745098 = 100
     }, 100); //delay
 
     // display values
