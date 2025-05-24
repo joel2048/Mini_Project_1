@@ -8,7 +8,6 @@ To-Do:
 
 - more pokemon info
     - weight, size, types(!) etc.
-    - types url: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-vi/omega-ruby-alpha-sapphire/12.png
 
 - page doesn't save last state
     -> add local storage
