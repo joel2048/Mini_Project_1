@@ -32,7 +32,7 @@ Hurdles/Problems:
     - problem: had to fetch complete Pokemon list for filtering
 
 - handling the API Data took too much time
-    not enough experience
-    lots of debugging
+    - not enough experience
+    - lots of debugging
 
 - animating the stat bars in pokemon.html was a challenge
