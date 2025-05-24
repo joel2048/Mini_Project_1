@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokedex</title>
+
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <link href="css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="svg-container">
+      
+      <svg viewbox="0 0 800 400" class="svg">
+        
+        <defs>
+            <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="50%" stop-color="#d83434" />
+                <stop offset="100%" stop-color="#ffbdbd" />
+            </linearGradient>
+        </defs>
+        <path
+          id="curve"
+          fill="url(#myGradient)"
+          
+          d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z"
+        ></path>
+      </svg>
+
+    </div>
+
+    <header>
+      
+      <img src="pokemon-logo.png" style="width: 27rem">
+      <h1 class="m-0 font-weight-bold">Pokédex</h1>
+      
+      <input type="text" id="search" placeholder="Search">
+
+      <div class="container" id="grid-container"></div>
+
+      <button id="load-previous">Previous</button>
+      <button id="load-next">Next</button>
+   
+    </header>
+
+    <footer>
+      <p>footer.</p>
+      <small
+        >Copyright: Nintendo<a href="http://armantaherian.com"></a></small
+      >
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
