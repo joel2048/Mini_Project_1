@@ -78,21 +78,5 @@ const displayData = async () => {
   });
 }
 
-
-// document.addEventListener("DOMContentLoaded", () => {
-//         const bar = document.getElementById("bar-one");
-//         const targetValue = bar.getAttribute("aria-valuenow");
-
-//         // Add slight delay so the transition is visible
-//         setTimeout(() => {
-//             bar.style.width = `${targetValue}%`;
-//         }, 100); // small delay lets CSS transition animate
-// });
-
-
 displayData();
-
-
-// 255*x = 100
-// x = 0.392156862745098
 
