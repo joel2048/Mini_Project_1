@@ -4,7 +4,7 @@ Exercise for practicing HTML, CSS, JavaScript
 
 To-Do:
 
-- Move hard coded CSS to .css files
+- move hard coded CSS to .css files
 
 - fix next-button being infinitely pressable
 
